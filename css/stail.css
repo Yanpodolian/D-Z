@@ -1,0 +1,119 @@
+
+a{
+    text-decoration: none;
+}
+
+.ul {
+    list-style: none;
+}
+
+
+/**---------------------menu----------------------*/
+
+.header-menu-logo{
+    color: #2E2F42;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.header-menu-logo-color{
+    color: #4D5AE5;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.header-menu-item {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-soc-item {
+    color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/**-------------------------2secia---------------------*/
+
+.zagolowok {
+    color:  #FFF;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
+.button{}
+
+/**-------------------------3secia----------------------*/
+
+.zagolowok-tekst {
+    color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.tekst{
+    color: #434455;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/**-------------------------4secia----------------------*/
+
+.Our-Team {
+    color: #2E2F42;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+} 
+
+.neme {
+    color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.workplace {
+    color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+
+.footer-logo-color{
+    color: #4D5AE5;
+}
+
+.footer-tekst{
+    color: #F4F4FD;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
