@@ -21,7 +21,7 @@ flex-shrink: 0;
 /**---------------------menu----------------------*/
 
 .header-menu-logo{
-    color: #2E2F42;
+    color: #4D5AE5;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.16;
@@ -30,7 +30,7 @@ text-transform: uppercase;
 }
 
 .header-logo-color{
-    color: #4d5ae5;
+    color: #2E2F42;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
