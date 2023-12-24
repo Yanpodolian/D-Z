@@ -16,7 +16,7 @@ a{
 
 .header-menu-logo{
     color: #4D5AE5;
-    font-family: "Raleway"
+    font-family: "Raleway";
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -53,15 +53,18 @@ letter-spacing: 0.02em;
 
 .zagolowok {
     color:  #FFF;
+    text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 }
 
-.button{}
 
 /**-------------------------3secia----------------------*/
+.section-info{
+    background-color: #FFF;
+}
 
 .zagolowok-tekst {
     color: #2E2F42;
@@ -69,6 +72,19 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+}
+.button{
+    border-radius: 4px;
+background-color: #4D5AE5;
+box-shadow: 0px 4px 4px 0px;
+cursor: pointer;
+
+color:  #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 .tekst{
     color: #434455;
@@ -80,6 +96,9 @@ letter-spacing: 0.02em;
 }
 
 /**-------------------------4secia----------------------*/
+.section-foto{
+    background-color: #F4F4Fd;
+}
 
 .Our-Team {
     color: #2E2F42;
@@ -90,6 +109,8 @@ letter-spacing: 0.02em;
 } 
 
 .neme {
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
@@ -103,6 +124,8 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+/**----------------------------------------/
 
 .footer-logo {
     color: #F4F4FD;
