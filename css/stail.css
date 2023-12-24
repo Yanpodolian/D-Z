@@ -59,7 +59,19 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 }
+.button{
+    border-radius: 4px;
+background-color: #4D5AE5;
+box-shadow: 0px 4px 4px 0px;
+cursor: pointer;
 
+color:  #ffffff;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
 
 /**-------------------------3secia----------------------*/
 .section-info{
@@ -73,19 +85,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
-.button{
-    border-radius: 4px;
-background-color: #4D5AE5;
-box-shadow: 0px 4px 4px 0px;
-cursor: pointer;
 
-color:  #ffffff;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-}
 .tekst{
     color: #434455;
 
@@ -125,7 +125,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-/**----------------------------------------/
+/**----------------------------------------*/
 
 .footer-logo {
     color: #F4F4FD;
