@@ -31,11 +31,11 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-font-family: "Raleway", sans-serif
+font-family: "Raleway", sans-serif;
 }
 
 .header-menu-item {
-    color: var(--NAVY-BLUE, #2e2f42);
+    color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -47,6 +47,9 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+.address{
+    font-style: normal
 }
 
 /**-------------------------2secia---------------------*/
