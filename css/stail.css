@@ -1,4 +1,8 @@
-
+.body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color:#FFFFFF
+}
 a{
     text-decoration: none;
 }
@@ -6,25 +10,16 @@ a{
 .ul {
     list-style: none;
 }
-.body{
-    color: #434455
-    background-color: #FFFFFF
-    font-family:"Roboto", sans-serif
-    display: flex;
-width: 1440px;
-height: 72px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-}
+
 
 /**---------------------menu----------------------*/
 
 .header-menu-logo{
     color: #4D5AE5;
+    font-family: "Raleway"
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
