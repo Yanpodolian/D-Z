@@ -104,6 +104,8 @@ letter-spacing: 0.02em;
 }
 
 .our-team {
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 font-size: 36px;
 font-weight: 700;
@@ -112,8 +114,7 @@ letter-spacing: 0.02em;
 } 
 
 .neme {
-    text-align: center;
-    text-transform: capitalize;
+
     color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
@@ -167,6 +168,8 @@ text-transform: capitalize;
 }
 .portfolio-neme{
     color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
 font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
@@ -180,4 +183,9 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+.portfolio-img{
+    width: 360px;
+height: 300px;
+flex-shrink: 0;
 }
