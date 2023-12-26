@@ -55,11 +55,11 @@ letter-spacing: 0.02em;
     font-style: normal
 }
 
-.contacts{
+.header-menu{
     color:#434455;
 }
-.contacts
-.contacts{
+.header-menu:hover
+.header-menu:focus{
     color:#404bbf;
 }
 /**-------------------------1secia---------------------*/
@@ -69,7 +69,7 @@ letter-spacing: 0.02em;
 }
 
 .zagolowok {
-background-color:#fff;
+color:#ffffff;
     text-align: center;
 font-size: 56px;
 font-weight: 700;
@@ -85,12 +85,12 @@ color:#ffffff;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
-line-height: 1.5;
+line-hmenu-eight: 1.5;
 letter-spacing: 0.04em;
 }
-menu-button :hover
-menu-button :focus{
-    background-color: #404bbf;
+.button:hover
+.button:focus{
+    background-color:#404BBF;
     cursor: pointer;
 }
 
