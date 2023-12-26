@@ -1,7 +1,7 @@
 .body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color:#FFFFFF
+    background-color:#ffffff;
 }
 .link{
     text-decoration: none;
@@ -15,7 +15,7 @@
 /**---------------------menu----------------------*/
 
 .header-menu-logo{
-    color: #4D5AE5;
+    color: #4d5ae5;
     font-family: "Raleway",sans-serif;
 font-size: 18px;
 font-weight: 700;
@@ -25,7 +25,7 @@ text-transform: uppercase;
 }
 
 .header-logo-color{
-    color: #2E2F42;
+    color: #2e2f42;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -55,7 +55,7 @@ letter-spacing: 0.02em;
 /**-------------------------1secia---------------------*/
 
 .zagolowok {
-    color:  #FFF;
+    color:  #fff;
     text-align: center;
 font-size: 56px;
 font-weight: 700;
@@ -64,7 +64,7 @@ letter-spacing: 0.02em;
 }
 .button{
     border-radius: 4px;
-background-color: #4D5AE5;
+background-color: #4d5ae5;
 box-shadow: 0px 4px 4px 0px;
 cursor: pointer;
 
@@ -78,11 +78,11 @@ letter-spacing: 0.04em;
 
 /**-------------------------2secia----------------------*/
 .section-info{
-    background-color: #FFF;
+    background-color: #ffffff;
 }
 
 .zagolowok-tekst {
-    color: #2E2F42;
+    color: #2e2f42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -100,7 +100,7 @@ letter-spacing: 0.02em;
 
 /**-------------------------3secia----------------------*/
 .section-foto{
-    background-color: #F4F4Fd;
+    background-color: #f4f4fd;
 }
 
 .our-team {
@@ -115,7 +115,7 @@ letter-spacing: 0.02em;
 
 .neme {
 
-    color: #2E2F42;
+    color: #2e2f42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -150,7 +150,7 @@ text-transform: uppercase
 }
 
 .footer-tekst{
-    color: #F4F4FD;
+    color: #f4f4fd;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
@@ -158,7 +158,7 @@ letter-spacing: 0.02em;
 }
 /**-------------4secia-----------*/
 .portfolio{
-    color: #2E2F42;
+    color: #2e2f42;
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
@@ -167,7 +167,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .portfolio-neme{
-    color: #2E2F42;
+    color: #2e2f42;
         text-align: center;
     text-transform: capitalize;
 font-family: Roboto;
