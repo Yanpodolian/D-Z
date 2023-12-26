@@ -13,6 +13,9 @@
 
 
 /**---------------------menu----------------------*/
+.header-menu-list{
+    color: #2e2f42;
+}
 
 .header-menu-logo{
     color: #4d5ae5;
@@ -53,6 +56,10 @@ letter-spacing: 0.02em;
 }
 
 /**-------------------------1secia---------------------*/
+
+.section-one{
+    background-color: #2e2f42;
+}
 
 .zagolowok {
     color:  #fff;
@@ -127,6 +134,9 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+.section-foto-spysok{
+    background-color: #ffffff;
 }
 
 /**---------------------footer-------------------*/
