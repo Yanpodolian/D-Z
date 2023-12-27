@@ -94,8 +94,8 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 }
-.button:hover
-.button:focus{
+button:hover
+button:focus{
     background-color:#404BBF;
     cursor: pointer;
 }
