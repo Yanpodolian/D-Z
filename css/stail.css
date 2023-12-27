@@ -55,11 +55,11 @@ letter-spacing: 0.02em;
     font-style: normal
 }
 
-.header-menu{
+.cursor{
     color:#434455;
 }
-.header-menu:hover
-.header-menu:focus{
+.cursor:hover
+.cursor:focus{
     color:#404bbf;
 }
 /**-------------------------1secia---------------------*/
@@ -73,10 +73,10 @@ color:#ffffff;
     text-align: center;
 font-size: 56px;
 font-weight: 700;
-line-height: 1.07;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.button{
+.menu-button{
 background-color:#4d5ae5;
 
 cursor: pointer;
@@ -85,7 +85,7 @@ color:#ffffff;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
-line-hmenu-eight: 1.5;
+line-height: 1.5;
 letter-spacing: 0.04em;
 }
 .button:hover
@@ -118,7 +118,7 @@ letter-spacing: 0.02em;
 
 /**-------------------------3secia----------------------*/
 .section-foto{
-    background-color:#f4f4fd;
+    background-color:#FFFFFF;
 }
 
 .our-team {
@@ -146,7 +146,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.section-foto-spysok{
+.section-foto{
     background-color:#ffffff;
 }
 
