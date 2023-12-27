@@ -41,6 +41,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:#2e2f42;
 }
+.header-soc-item{
+color:#2e2f42;
+}
+.header-menu-item{
+color:#434455;
+}
 .header-soc-item {
 font-size: 16px;
 font-weight: 400;
@@ -52,13 +58,6 @@ color:#434455;
     font-style: normal
 }
 
-.cursor{
-    color:#434455;
-}
-cursor:hover
-cursor:focus{
-    color:#404bbf;
-}
 .header-menu-link{
     color: #404bbf;
 }
