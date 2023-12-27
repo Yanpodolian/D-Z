@@ -58,9 +58,15 @@ letter-spacing: 0.02em;
 .cursor{
     color:#434455;
 }
-.cursor:hover
-.cursor:focus{
+cursor:hover
+cursor:focus{
     color:#404bbf;
+}
+.header-menu-link{
+    color: #404bbf;
+}
+.header-soc-link{
+color: #404bbf;
 }
 /**-------------------------1secia---------------------*/
 
@@ -118,7 +124,7 @@ letter-spacing: 0.02em;
 
 /**-------------------------3secia----------------------*/
 .section-foto{
-    background-color:#F4F4FD;
+    background-color:#f4f4fd;
 }
 
 .our-team {
@@ -146,7 +152,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.section-foto-spysok{
+.section-foto{
     background-color:#ffffff;
 }
 
