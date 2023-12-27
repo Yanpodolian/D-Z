@@ -7,23 +7,13 @@
     text-decoration: none;
 }
 
-.ul {
-    list-style: none;
-}
+
 
 
 /**---------------------menu----------------------*/
 .header-menu-list{
     color:#2e2f42;
 }
-
-.header-menu-list{
-    color:#2e2f42;
-}
-.header-soc-list{
-    color:#434455;
-}
-
 .header-menu-logo{
     color:#4d5ae5;
     font-family: "Raleway",sans-serif;
@@ -45,18 +35,18 @@ font-family: "Raleway", sans-serif;
 }
 
 .header-menu-item {
-    color:#2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color:#2e2f42;
 }
 .header-soc-item {
-    color:#434455;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color:#434455;
 }
 .address{
     font-style: normal
