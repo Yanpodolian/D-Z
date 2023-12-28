@@ -3,8 +3,8 @@
     color: #434455;
     background-color:#ffffff;
 }
-.a{
-    text-decoration: none;
+a{
+text-decoration: none;
 }
 
 
@@ -41,12 +41,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:#2e2f42;
 }
-.header-soc-item{
-color:#2e2f42;
-}
-.header-menu-item{
-color:#434455;
-}
+
 .header-soc-item {
 font-size: 16px;
 font-weight: 400;
@@ -59,10 +54,10 @@ color:#434455;
 }
 
 .header-menu-link{
-    color: #404bbf;
+    color: #2e2f42;
 }
 .header-soc-link{
-color: #404bbf;
+color: #434455;
 }
 /**-------------------------1secia---------------------*/
 
