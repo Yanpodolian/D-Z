@@ -56,14 +56,14 @@ color:#434455;
 .header-menu-link{
     color: #2e2f42;
 }
-.header-menu-link:hover
+.header-menu-link:hover,
 .header-menu-link:focus{
     color:#404bbf;
 }
 .header-soc-link{
  color: #434455;
 }
-.header-soc-link:hover
+.header-soc-link:hover,
 .header-soc-link:focus{
     color:#404bbf;
 }
