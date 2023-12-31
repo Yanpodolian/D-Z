@@ -2,18 +2,63 @@
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:#ffffff;
+    max-width:1440px;
+height: 3300px;
 }
+
 a{
 text-decoration: none;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    list-style-type: none;
+}
+img{
+    display: block;
+     max-width: 100%;
+      height: auto;
+}
+.container{
 
-
-
+}
+.header-menu{
+height: 72px;
+flex-shrink: 0;
+}
+.section-one{
+padding: 120px;
+height: 600px;
+flex-shrink: 0;
+}
+.section-info{
+    padding: 120px;
+}
+.section-foto{
+    padding: 120px;
+height: 732px;
+flex-shrink: 0;
+}
+.section-portfolio{
+    padding: 120px; 
+height: 732px;
+flex-shrink: 0;
+}
+.footer-boxx{
+height: 312px;
+flex-shrink: 0;
+}
 /**---------------------menu----------------------*/
+
+
 .header-menu-list{
     color:#2e2f42;
+    padding-top: 24px;
+margin-left:76px;
 }
+
 .header-menu-logo{
     color:#4d5ae5;
     font-family: "Raleway",sans-serif;
@@ -22,6 +67,9 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-left: 156px;
+padding-top: 25.5px;
+padding-bottom: 25.5px;
 }
 
 .header-logo-color{
@@ -71,6 +119,27 @@ color:#434455;
 .header-soc-link:focus{
     color:#404bbf;
 }
+.header-menu-list{
+    display: flex;
+    gap: 40px;
+}
+.header-menu-navv{
+    display: flex;
+}
+.header-soc-list{
+    padding-top: 24px;
+    margin-left: 332px;
+    margin-right: 156px;
+    display: flex;
+    gap: 40px;
+}
+.header-menu-div{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu{
+    border-bottom:1px ;
+}
 
 /**-------------------------1secia---------------------*/
 
@@ -85,18 +154,30 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+padding-right:472px;
+padding-left: 472px;
+padding-top: 188px;
+margin-bottom: 48px;
+width: 496px;
+height: 120px;
 }
 .menu-button{
 background-color:#4D5AE5;
-
+margin-top: 48px;
+padding:16,32px;
 cursor: pointer;
-
 color:#ffffff;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+margin-left: 636px;
+margin-right: 635px;
+margin-bottom: 188px;
+border: 4px;
+width: 169px;
+height: 56px;
 }
 .menu-button:hover{
     background-color:#404BBF;
@@ -112,6 +193,13 @@ letter-spacing: 0.04em;
 .section-info{
     background-color:#ffffff;
 }
+.section-info-spysok{
+    display: flex;
+    gap: 24px;
+    padding-top: 120px;
+    padding-left: 156px;
+    width: 264px;
+}
 
 .zagolowok-tekst {
     color:#2e2f42;
@@ -119,6 +207,8 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
+width: 264px;
 }
 
 .tekst{
@@ -128,8 +218,20 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+width: 264px;
 }
-
+.stels{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /**-------------------------3secia----------------------*/
 .section-foto{
     background-color:#F4F4FD;
@@ -143,6 +245,9 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
+padding-top: 120px;
+padding-left: 639;
+margin-bottom: 72px;
 } 
 
 .neme {
@@ -162,8 +267,21 @@ letter-spacing: 0.02em;
 }
 .foto-list{
     background-color: #FFFFFF;
+    display: inline-flex;
+padding-bottom: 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
+border-radius: 0px 0px 4px 4px;
+background: #FFF;
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
+.foto{
+padding-left: 156px;
+width: 264px;
+height: 260px;
+}
 
 /**---------------------footer-------------------*/
 
@@ -177,7 +295,10 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
-text-transform: uppercase
+text-transform: uppercase;
+padding-left: 156px;
+padding-top: 101.5px;
+margin-bottom: 17.5px;
 }
 
 .footer-logo-color{
@@ -191,6 +312,9 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+width: 264px;
+padding-left: 156px;
+padding-bottom: 100px;
 }
 /**-------------4secia-----------*/
 .portfolio{
@@ -201,6 +325,8 @@ font-weight: 700;
 line-height: 0.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center;
+margin-bottom: 72px;
 }
 .portfolio-neme{
     color:#2e2f42;
@@ -211,6 +337,8 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-top: 32px;
+margin-left: 16px;
 }
 .portfolio-text{
     color:#434455;
@@ -219,4 +347,26 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-top: 8px;
+margin-left: 16px;
+}
+.portfolio-img{
+    width: 360px;
+height: 300px;
+flex-shrink: 0;
+}
+.portfolio-list{
+    display: flex;
+width: 360px;
+height: 420px;
+padding-bottom: 32px;
+flex-direction: column;
+align-items: flex-start;
+
+flex-shrink: 0;
+    display: inline-flex;
+     text-align: center;
+}
+.portfolio-spisok{
+    gap: 48px;
 }
