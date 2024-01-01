@@ -43,6 +43,7 @@ img{
 }
 .header-container{
     display: flex;
+    width: 1158px;
 }
 
 /**---------------------menu----------------------*/
@@ -55,8 +56,6 @@ img{
 
 .header-menu-list{
     color:#2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
 
 
 }
@@ -90,6 +89,8 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#2e2f42;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header-soc-item {
@@ -98,6 +99,8 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .address{
     font-style: normal
@@ -129,10 +132,10 @@ color:#434455;
 }
 .header-menu-navv{
     display: flex;
+    align-items: center;
 }
 .header-soc-list{
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     display: flex;
     gap: 40px;
     margin-left:0 auto;
@@ -146,9 +149,7 @@ color:#434455;
 .section-one{
     background-color:#2e2f42;
     padding-top: 188px;
-    padding-left: 472px;
     padding-bottom: 188px;
-    padding-right: 472px;
     }
 
 .zagolowok {
@@ -158,9 +159,11 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+max-width: 496px;
 
 }
 .menu-button{
+    display: block;
     margin: 0 auto;
 background-color:#4D5AE5;
 margin-top: 48px;
@@ -194,17 +197,18 @@ min-width: 169px;;
 .section-info{
     background-color:#ffffff;
     padding-top: 120px;
-    padding-left: 156px;
     padding-bottom: 120px;
-    padding-right: 156px;
 }
 
 .section-info-spysok{
     display: flex;
     gap: 24px;
     width: 264px;
-}
 
+}
+.section-info-list{
+    width: calc((100% - 72px) / 4);
+}
 .zagolowok-tekst {
     color:#2e2f42;
 font-size: 20px;
@@ -242,8 +246,6 @@ width: 264px;
     background-color:#F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 
 .our-team {
@@ -258,24 +260,34 @@ padding-top: 120px;
 margin-bottom: 72px;
 text-align: center;
 } 
-
+.section-foto-spysok{
+    display: flex;
+    gap: 24px;
+}
+.container-foto{
+    padding: 32px 0;
+}
 .neme {
-
+ 
     color:#2e2f42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
+margin-bottom: 8px;
 }
 .workplace {
+    
     color:#434455;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-align: center;
 }
 .foto-list{
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     display: inline-flex;
 padding-bottom: 32px;
@@ -297,9 +309,7 @@ height: 260px;
 
 .footer-boxx{
     background-color:#2e2f42;
-    padding-left: 156px;
     padding-top: 101.5px;
-    padding-right: 1020px;
     padding-bottom: 100px;
 }
 .footer-logo {
@@ -310,7 +320,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer-logo-color{
@@ -331,8 +342,6 @@ margin-top: 17.5px;
 .section-portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 .portfolio{
     color:#2e2f42;
@@ -356,6 +365,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 margin-top: 32px;
 margin-left: 16px;
+margin-bottom: 8px
 }
 .portfolio-text{
     color:#434455;
@@ -379,11 +389,20 @@ height: 420px;
 padding-bottom: 32px;
 flex-direction: column;
 align-items: flex-start;
+width: calc((100% - 48px) / 3);
 
 flex-shrink: 0;
     display: inline-flex;
      text-align: center;
 }
 .portfolio-spisok{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
     gap: 48px;
+}
+.portfolio-list{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
 }
