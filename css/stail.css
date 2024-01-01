@@ -41,11 +41,7 @@ img{
     padding-right:15px;
     margin: 0 auto;
 }
-.header-container{
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-}
+
 
 /**---------------------menu----------------------*/
 .header-menu{
@@ -109,6 +105,8 @@ color:#434455;
 
 .header-menu-link{
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu-link:hover{
     color:#404bbf;
@@ -141,8 +139,14 @@ color:#434455;
     gap: 40px;
     margin-left:0 auto;
     margin-left: 33px ;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
-
+.header-container{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+}
 
 
 /**-------------------------1secia---------------------*/
@@ -344,6 +348,12 @@ margin-top: 17.5px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.portfolio-div{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    column-gap: 24px;
+}
 .portfolio{
     color:#2e2f42;
 font-family: Roboto;
@@ -406,10 +416,4 @@ flex-shrink: 0;
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
-}
-.portfolio-div{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    column-gap: 24px;
 }
