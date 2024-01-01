@@ -36,10 +36,12 @@ img{
       height: auto;
 }
 .container{
+    width: 100%;
     max-width:1158px;
     margin: 0 auto;
-    padding-left:15px;  
-    padding-right:15px;
+    padding:0.15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -50,13 +52,23 @@ img{
     padding-right: 156px;
    
     }
-
+.header-container{
+ display: flex;
+ width: 1158px;
+ margin: 0 auto;
+}
 .header-menu-list{
     color:#2e2f42;
     padding-top: 24px;
 padding-bottom: 24px;
-
-
+display: flex;
+gap: 40px;
+}
+.header-soc-list{
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-logo{
@@ -97,6 +109,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
+padding-right: 156px;
 
 }
 .address{
@@ -124,29 +137,13 @@ color:#434455;
 .header-soc-link:focus{
     color:#404bbf;
 }
-.header-menu-list{
-    display: flex;
-    gap: 40px;
 
-}
 .header-menu-navv{
     display: flex;
     align-items: center;
 }
-.header-soc-list{
 
-    display: flex;
-    gap: 40px;
-    margin-left:0 auto;
-    margin-left: 33px ;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-.header-container{
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-}
+
 
 
 /**-------------------------1secia---------------------*/
@@ -165,7 +162,11 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 max-width: 496px;
+width: 100%;
+margin: 0 auto;
+margin-bottom : 48px;
 
+white-space: wrap;
 }
 .menu-button{
     display: block;
@@ -206,10 +207,10 @@ min-width: 169px;;
 }
 
 .section-info-spysok{
+    margin: 0 auto;
     display: flex;
     gap: 24px;
     width: 264px;
-
 }
 .section-info-list{
     width: calc((100% - 72px) / 4);
@@ -271,9 +272,10 @@ text-align: center;
 }
 .container-foto{
     padding: 32px 0;
+
 }
 .neme {
- 
+    
     color:#2e2f42;
 font-size: 20px;
 font-weight: 500;
@@ -303,11 +305,13 @@ gap: 32px;
 border-radius: 0px 0px 4px 4px;
 background: #FFF;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 }
 .foto{
 padding-left: 156px;
 width: 264px;
 height: 260px;
+
 }
 
 /**---------------------footer-------------------*/
@@ -353,6 +357,7 @@ margin-top: 17.5px;
     border: 1px solid #e7e9fc;
     border-top: none;
     column-gap: 24px;
+    margin-left: 0 auto;
 }
 .portfolio{
     color:#2e2f42;
