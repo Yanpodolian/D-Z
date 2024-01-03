@@ -60,13 +60,7 @@ padding-bottom: 24px;
 display: flex;
 gap: 40px;
 }
-.header-soc-list{
-    display: flex;
-    gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 
-}
 
 .header-menu-logo{
     color:#4d5ae5;
@@ -97,9 +91,13 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#2e2f42;
-
 }
-
+.header-soc-list{
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .header-soc-item {
 font-size: 16px;
 font-weight: 400;
@@ -107,11 +105,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
 padding-right: 156px;
-
 }
 .address{
     font-style: normal;
- 
 }
 
 .header-menu-link{
@@ -138,7 +134,7 @@ padding-right: 156px;
 
 .header-menu-navv{
     display: flex;
-
+    align-items: center;
 }
 
 
