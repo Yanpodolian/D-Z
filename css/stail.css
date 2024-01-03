@@ -104,7 +104,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
-padding-right: 156px;
+margin-left: auto;
 }
 .address{
     font-style: normal;
@@ -299,7 +299,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 }
 .foto{
-padding-left: 156px;
+
 width: 264px;
 height: 260px;
 text-align: center;
