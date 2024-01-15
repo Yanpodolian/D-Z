@@ -33,12 +33,17 @@ img{
     padding-left:15px;  
     padding-right:15px;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
 
 /**---------------------menu----------------------*/
 .header-menu{
     border-bottom:1px solid #e7e9fc;
-
+ margin: 0;
 
     }
 .header-container{
@@ -64,7 +69,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 padding-top: 25.5px;
 padding-bottom: 25.5px;
-margin-right: 76px;
+
+
 }
 
 .header-logo-color{
@@ -99,7 +105,8 @@ color:#434455;
 
 }
 .address{
-    font-style: normal;margin-right: auto;
+    font-style: normal;
+    margin-left: auto;
 }
 
 .header-menu-link{
@@ -126,7 +133,7 @@ color:#434455;
 
 .header-menu-navv{
     display: flex;
-    align-items: center;
+gap: 76px;
 }
 
 
@@ -245,7 +252,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
-padding-top: 120px;
+
 margin-bottom: 72px;
 text-align: center;
 } 
