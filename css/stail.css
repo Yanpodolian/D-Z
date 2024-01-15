@@ -32,7 +32,7 @@ img{
     margin: 0 auto;
     padding-left:15px;  
     padding-right:15px;
-    align-items: center;
+    
 }
 *{
     margin: 0;
@@ -49,7 +49,7 @@ img{
 .header-container{
  display: flex;
  width: 1158px;
- align-items: center;
+ 
 }
 .header-menu-list{
     color:#2e2f42;
@@ -134,7 +134,7 @@ color:#434455;
 
 .header-menu-navv{
     display: flex;
-
+align-items: center;
 }
 
 
