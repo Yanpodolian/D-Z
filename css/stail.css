@@ -368,7 +368,7 @@ text-align: center;
 .sprajt-soc-merez:hover{
     background-color: #404bbf;
 }
-.sprajt-soc-merez:fokus{
+.sprajt-soc-merez:focus{
     background-color: #404bbf;
 }
 .sprajt-soc-link{
@@ -395,6 +395,73 @@ height: 260px;
 text-align: center;
 }
 
+
+/**----------------------4secia-----------------------------*/
+.section-portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-div{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.portfolio{
+    color:#2e2f42;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 0.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+margin-bottom: 72px;
+}
+.portfolio-neme{
+    color:#2e2f42;
+margin-bottom: 8px;
+}
+.portfolio-text{
+    color:#434455;
+    transform: translateY(0%);
+}
+.portfolio-img{
+    width: 360px;
+height: 300px;
+flex-shrink: 0;
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list{
+    width: calc((100% - 48px) / 3);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-spisok{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-kartka{
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-text-sss{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /**---------------------footer-------------------*/
 
 .footer-boxx{
@@ -469,69 +536,4 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 width: 264px;
 margin-top: 17.5px;
-}
-/**----------------------4secia-----------------------------*/
-.section-portfolio{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-.portfolio-div{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
-.portfolio{
-    color:#2e2f42;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 0.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-text-align: center;
-margin-bottom: 72px;
-}
-.portfolio-neme{
-    color:#2e2f42;
-margin-bottom: 8px;
-}
-.portfolio-text{
-    color:#434455;
-    transform: translateY(0%);
-}
-.portfolio-img{
-    width: 360px;
-height: 300px;
-flex-shrink: 0;
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio-list{
-    width: calc((100% - 48px) / 3);
-}
-.portfolio-spisok{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;
-    margin: 0;
-    padding: 0;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.portfolio-kartka{
-    position: relative;
-    overflow: hidden;
-}
-
-.portfolio-text-sss{
-    position: absolute;
-    top: 0;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
-    background-color: #4d5ae5;
-    height: 100%;
-    width: 100%;
-    transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
