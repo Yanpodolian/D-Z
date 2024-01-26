@@ -476,7 +476,8 @@ flex-shrink: 0;
 .container-footer{
     margin-right: 120px;
     display: flex;
-    align-items: baseline
+    align-items: baseline;
+
 }
 .footer-paragraf{
     font-weight: 500;
@@ -486,6 +487,10 @@ flex-shrink: 0;
     color:#FFFFFF;
     margin-bottom: 16px;
 }
+.footer-div{
+    display: flex;
+    align-items: baseline;
+}
 .footer-list-soc{
     display: flex;
     gap: 16px;
@@ -493,7 +498,6 @@ flex-shrink: 0;
 .footer-sysok{
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-posell{
     width: 100%;
@@ -503,6 +507,7 @@ flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-posell:focus{
     background-color: #31d0aa;
