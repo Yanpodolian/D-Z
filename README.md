@@ -1,1 +1,3 @@
-https://yanpodolian.github.io/D-Z/
+   display: flex;
+    align-items: center;
+    justify-content: center;
