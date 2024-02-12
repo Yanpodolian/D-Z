@@ -726,6 +726,9 @@ input::placeholder {
 .model-textarea:focus{
     border-color: #4D5AE5;
 }
+input:focus {
+    border-color: #4D5AE5;
+  }
 .model-Privacy{
     margin-bottom: 24px;
 }
