@@ -647,10 +647,10 @@ input::placeholder {
 .model-exit{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.model-exit-butom:hover{
+.model-exit-butom:hover .icon path{
     fill: #ffffff;
 }
-.model-exit-butom:focus{
+.model-exit-butom:focus .icon path{
     fill: #ffffff;
 }
 .model-zagolovok{
@@ -687,11 +687,8 @@ input::placeholder {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.model-box:focus{
-    border-color: #4D5AE5;
-}
-.model-
-.model-input:focus{
+
+.model-input:focus .icon path{
     border-color: #4D5AE5;
 }
 .model-svg{
