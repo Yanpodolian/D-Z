@@ -647,7 +647,12 @@ input::placeholder {
 .model-exit{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
+.model-zagolovok:hover{
+    fill: #ffffff;
+}
+.model-zagolovok:focus{
+    fill: #ffffff;
+}
 .model-zagolovok{
     font-weight: 500;
     font-size: 16px;
