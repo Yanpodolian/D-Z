@@ -693,8 +693,8 @@ input::placeholder {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-model-input:focus-within + .model-svg path {
-    fill: none;
+.model-input:focus + .model-svg {
+    fill: #4D5AE5;
   }
 
 .model-div-come{
@@ -772,18 +772,21 @@ margin: auto;
 
 .visually-hidden:checked +.model-user-privacy .model-span{
     background-color:  #404bbf;
+    fill: #ffffff;
 }
-.svg-model{
+.model-span{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
      display: inline-flex;
      align-items: center;
      justify-content: center;
+     fill: transparent;
 }
 
 
 .model-input .model-svg:focus{
     border-color: #4D5AE5;
+    outline: transparent;
 }
 .model-svg:focus {
     fill: #4D5AE5;
