@@ -685,7 +685,10 @@ input::placeholder {
     
 }
 
-.model-input:focus .icon path{
+.model-input:focus{
+    border-color: #4D5AE5;
+}
+.model-svg:focus{
     border-color: #4D5AE5;
 }
 .model-svg{
@@ -746,8 +749,9 @@ input:focus {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    display: block;
+   display: block;
     cursor: pointer;
+    
 }
 .visually-hidden:checked{
     border: none;
@@ -776,3 +780,4 @@ margin: auto;
 .visually-hidden:checked +.model-user-privacy .model-span{
     background-color:  #404bbf;
 }
+
