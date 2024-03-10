@@ -12,36 +12,70 @@
     <title>Document</title>
 </head>
 <body class="body">
-    <header class="header-menu">
+    <header class="header">
     <div class="container header-container">
-        <nav class="header-menu-navv">
-            <a class="header-menu-logo" href="./index.html">
-                Web<span class="header-logo-color">Studio</span>
+        <nav class="navigation">
+            <a class="logo" href="./index.html">
+                Web<span class="logo-col">Studio</span>
             </a>
             
-            <ul class="header-menu-list">
-                <li class="header-menu-item " ><a href="./index.html" class="header-menu-studio ">Studio</a></li>
-                <li class="header-menu-item" ><a href="" class="header-menu-link">Portfolio</a></li>
-                <li class="header-menu-item" ><a href="" class="header-menu-link">Contacts</a></li>
+            <ul class="nav-list">
+                <li class="header-menu-item " ><a href="./index.html" class="nav-link current">Studio</a></li>
+                <li class="header-menu-item" ><a href="" class="nav-link">Portfolio</a></li>
+                <li class="header-menu-item" ><a href="" class="nav-link">Contacts</a></li>
             </ul>
         </nav >
             <address class="address">
-               <ul class="header-soc-list">
-                   <li class="header-soc-item"><a class="header-soc-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                   <li class="header-soc-item"><a class="header-soc-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+               <ul class="address-list">
+                   <li class="address-link"><a class="header-soc-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                   <li class="address-link"><a class="header-soc-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                </ul>
             </address> 
+            <button type="button" class="open-menu">
+                <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-heroicons-solid_burger">
+                    </use>
+                </svg>
+            </button>
         </div>
+        
+        <div class="backdrop is-open">
+            <div class="modal">
+                <button type="button" class="modal-close">
+                    <svg class="modal-close-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-exit"></use>
+                    </svg>
+                </button>
+                <ul class="nav-list">
+                    <li class="header-menu-item " ><a href="./index.html" class="nav-link current">Studio</a></li>
+                    <li class="header-menu-item" ><a href="" class="nav-link">Portfolio</a></li>
+                    <li class="header-menu-item" ><a href="" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav >
+                <address class="address">
+                   <ul class="address-list">
+                       <li class="address-link"><a class="header-soc-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                       <li class="address-link"><a class="header-soc-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                   </ul>
+                </address> 
+                <button type="button" class="open-menu">
+                    <svg width="24" height="24">
+                        <use href="./images/icons.svg#icon-heroicons-solid_burger">
+                        </use>
+                    </svg>
+            </div>
     </header>
-    <main>
+    
+    <!-- <main>
         <section class="section-one">
             <div class="container">
             <h1 class="zagolowok">Effective Solutions
                 for Your Business</h1>
                 <button class="menu-button"  type="button">Order Service</button>
             </div>
-        </section>
-        <section class="section-info">
+        </section> -->
+        <!--  <section class="section-info"> 
+
             <div class="container">
             <h2 class="stels">our advantages</h2>
             <ul class="section-info-spysok">
@@ -92,7 +126,7 @@
                 </li>
             </ul>
         </div>
-        </section>
+        </section> 
         <section class="section-foto">
             <div class="container">
             <h2 class="our-team">Our Team</h2>
