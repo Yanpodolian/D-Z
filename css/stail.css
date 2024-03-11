@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
+    min-width:320px;
   }
   
   a {
@@ -20,6 +21,18 @@ body {
     padding: 0 16px;
     margin: 0 auto;
   }
+  .stels{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
   @media screen and (min-width: 768px) {
   .container{
   max-width: 768px;
@@ -30,8 +43,10 @@ body {
   max-width: 1158px;
   padding: 0 15px;
   }
-    
   }
+  .nav-list{
+    display: none;
+}
   .header {
     border-bottom: 1px solid #e7e9fc;
   }
@@ -58,12 +73,6 @@ body {
   .logo-col {
     color: #2e2f42;
   }
-  .nav-list {
-    display: none;
-   
-  }
-  
-  
   .address {
     font-style: normal;
     margin-left: auto;
@@ -77,9 +86,12 @@ body {
   cursor: pointer;
   border: none;
   }
+
   @media screen and (min-width:768px) {
   
-  
+    .address{
+display: block;
+    }
     .open-menu {
     display: none;
     }
@@ -90,23 +102,23 @@ body {
     display: flex;
     gap: 40px;
     }
-    .nav-link {
+    .nav-link-modal {
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .nav-link:hover,
-  .nav-link:focus {
+  .nav-link-modal:hover,
+  .nav-link-modal:focus {
     color: #404bbf;
   }
   .current {
     position: relative;
     color: #404bbf;
+    padding-bottom: 20px;
   }
   .current::after {
     content: "";
@@ -121,36 +133,39 @@ body {
    .address {
     display: block;
     }
-    .address-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    }
-    .address-link {
-    color: #434455;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.02em;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .address-link:hover,
-  .address-link:focus {
-    color: #404bbf;
-  }
-  }
-  @media screen and (min-width: 1158px) {
-  .logo {
-  margin-right: 76px;
-  }
-  .address-list {
-    flex-direction: row;
-    gap: 40px;
-  }
-    .address-link {
-      font-size: 16px;
-      line-height: 1.5;
-    }
+    .address {
+        display: block;
+        }
+        .address-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        }
+        .address-link {
+        color: #434455;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+        transition: color cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .address-link:hover,
+      .address-link:focus {
+        color: #404bbf;
+      }
+      }
+      @media screen and (min-width: 1158px) {
+      .logo {
+      margin-right: 76px;
+      }
+      .address-list {
+        flex-direction: row;
+        gap: 40px;
+      }
+        .address-link {
+          font-size: 16px;
+          line-height: 1.5;
+        }
   }
   /* ------------------modal------------- */
   .backdrop {
@@ -175,11 +190,14 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 408px;
-    min-height: 584px;
+    width: 320px;
+    min-height: 640px;
     background-color: #fcfcfc;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 16px;
+    padding-top: 72px;
+    padding-bottom: 40px;
   }
   .modal-close {
     position: absolute;
@@ -209,18 +227,94 @@ body {
   .modal-close:focus > .modal-close-icon {
     fill: #ffffff;
   }
-.nav-list{
+
+  .nav-list-modal{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .nav-link-modal{
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.current{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+color: #2e2f42;
+  }
+  .current-modal{
+    color: #404bbf;
+  }
+  .header-soc-link-modal{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+  }
+  .header-soc-link-modal-tel{
+    color: #4d5ae5;
+  }
+  .address-list-modal{
+    margin-top: 168px;
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+  }
+
+
+
+  .sprajt-list-modal{
+    display: flex;
+   
+    gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
     
+    margin-top: 48px;
 }
-/**-------------------------1secia---------------------*
+.spysok-modal{
+    width: 40px;
+    height: 40px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.sprajt-soc-merez-modal{
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+}
+.sprajt-soc-merez-modal:hover{
+    background-color: #404bbf;
+}
+.sprajt-soc-merez-modal:focus{
+    background-color: #404bbf;
+}
+/**-------------------------1secia---------------------*/
+.section-one{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color:#2e2f42;
+background-image:linear-gradient(
+   rgba(46, 47, 66, 0.70),
+    rgba(46, 47, 66, 0.70)
+) ,url(../images/people-office.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover ;
+ 
+    padding-top: 188px;
+    padding-bottom: 188px;
+ }
+
 
 .section-one{
     max-width: 1440px;
@@ -280,64 +374,130 @@ min-width: 169px;;
     cursor: pointer;
 }
 
-/**-------------------------2secia----------------------*
+/**-------------------------2secia----------------------*/
 .section-info{
     background-color:#ffffff;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+   
 }
-.section-foto-ikonk{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    border-radius: 4px;
-border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-background: var(--CLOUD, #F4F4FD);
-}
-.section-info-spysok{
-    padding-left: 0;
-    margin: 0 auto;
-    display: flex;
-    gap: 24px;
-}
+
+
 .section-info-list{
     width: calc((100% - 72px) / 4);
+    display: flex;
+    height: 120px;
+width: 288px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+.section-foto-ikonk{
+    display: none;
+}
+.sprajt-soc-link{
+    fill:#f4f4fd;
 }
 .zagolowok-tekst {
-    color:#2e2f42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-margin-bottom: 8px;
-width: 264px;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0px;
+    padding: 0px;
+   
 }
-
 .tekst{
-    color:#434455;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 width: 264px;
+margin: 0px;
+padding: 0;
 }
-.stels{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+@media screen and (max-width:767px){
+    .zagolowok-tekst {
+        text-align: center;
+    }
+    .section-info-spysok{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+    }
+}
+@media screen and (min-width:768px){
+
+    .section-info-spysok{
+       display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:flex-end;
+        gap: 24px;
+        position: relative;
     overflow: hidden;
+    }
+    .section-info-list{
+        height: 120px;
+        width: 356px;
+        display: block;
+    }
+  
 }
+@media screen and (min-width:1158px){
+    .section-info{
+        background-color:#ffffff;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .section-info-spysok{
+        display: flex;
+    }
+    .section-foto-ikonk{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
+    }
+    .zagolowok-tekst {
+        color:#2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    width: 264px;
+    }
+    .tekst{
+        color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+    }
+    .section-info-list{
+        width: calc((100% - 72px) / 4);
+        
+    }
+ 
+}
+
 
 /**-------------------------3secia----------------------*
 .section-foto{
@@ -347,7 +507,6 @@ width: 264px;
 }
 .sprajt-section-info{
     fill: #f4f4fd; 
-
 }
 .our-team {
     text-align: center;
@@ -393,7 +552,6 @@ margin-bottom: 8px;
     gap: 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
-    
 }
 .spysok{
     width: 40px;
@@ -404,8 +562,7 @@ margin-bottom: 8px;
 .sprajt-soc{
     display: flex;
     gap: 24px;
-    justify-content: center;
-    
+    justify-content: center; 
 } 
 .section-info-sprajt{
     display: flex;
@@ -415,7 +572,6 @@ margin-bottom: 8px;
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-    
 }
 .sprajt-soc-merez{
     width: 100%;
@@ -435,9 +591,7 @@ margin-bottom: 8px;
 .sprajt-soc-merez:focus{
     background-color: #404bbf;
 }
-.sprajt-soc-link{
-    fill:#f4f4fd;
-}
+
 .foto-list{
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
