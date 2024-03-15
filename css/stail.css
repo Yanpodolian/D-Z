@@ -318,8 +318,8 @@ gap: 24px;
 @media only screen and (min-resolution: 192dpi) and (max-width:767px) {
     .section-one{
         max-width: 768px;
-        padding-top: 112px;
-        padding-bottom: 112px;
+        padding-top:  72px;
+        padding-bottom:  72px;
         background-image:linear-gradient(
        rgba(46, 47, 66, 0.70),
         rgba(46, 47, 66, 0.70)

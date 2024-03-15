@@ -156,14 +156,14 @@
             <h2 class="our-team">Our Team</h2>
             <ul class="section-foto-spysok">
                 <li class="foto-list">
-                    <picture>
-                        <source
-                        srcset="
-                        ./images/Mark.jpg 1x,
-                        ./images/mark2x.jpg 2x"
-                        />
-                    <img class="foto" src="./images/Mark.jpg" width="264" alt="Mark Guerrero">
-                </picture>
+                    <img
+                    src="./images/Mark.jpg"
+                    alt="photo of Tom Ford"
+                    srcset="
+                    ./images/Mark.jpg  1x
+                    ./images/mark2x.jpg   2x
+                    "
+                  />
                     <div class="container-foto">
                     <h3 class="neme">Mark Guerrero</h3>
                     <p class="workplace">Product Designer</p>
@@ -201,15 +201,14 @@
                 </div>
                 </li>
                 <li class="foto-list">
-                    <picture>
-                        <source
-                        srcset="
-                        ./images/Tom.jpg  1x,
-                        ./images/tom2x.jpg  2x
-                        "
-                        />
-                    <img class="foto" src="./images/Tom.jpg" width="264" alt="Frontend Developer">
-                </picture>
+                    <img
+                    src="./images/Tom.jpg"
+                    alt="photo of Tom Ford"
+                    srcset="
+                    ./images/Tom.jpg   1x
+                    ./images/tom2x.jpg 2x
+                    "
+                  />
                     <div class="container-foto">
                     <h3 class="neme">Tom Ford</h3>
                     <p class="workplace">Frontend Developer</p>
@@ -246,15 +245,14 @@
                  </div>
                 </li>
                  <li class="foto-list">
-                    <picture>
-                        <source
-                        srcset="
-                        ./images/Camila.jpg 1x,
-                        ./images/camila2x.jpg 2x
-                        "
-                        />
-                    <img class="foto" src="./images/Camila.jpg" width="264" alt="Camila Garcia">
-                </picture>
+                    <img
+                    src="./images/Camila.jpg"
+                    alt="photo of Tom Ford"
+                    srcset="
+                    ./images/Camila.jpg   1x
+                    ./images/camila2x.jpg 2x
+                    "
+                  />
                     <div class="container-foto">
                     <h3 class="neme">Camila Garcia</h3>
                     <p class="workplace">Marketing</p>
@@ -291,15 +289,14 @@
                  </div>
                 </li>
                  <li class="foto-list">
-                    <picture>
-                        <source
-                        srcset="
-                        ./images/Daniel.jpg 1x,
-                        ./images/daniel2.jpg 2x
-                        "
-                        />
-                    <img class="foto" src="./images/Daniel.jpg" width="264" alt="Daniel Wilson">
-                </picture>
+                    <img
+                    src="./images/Daniel.jpg"
+                    alt="photo of Tom Ford"
+                    srcset="
+                    ./images/Daniel.jpg   1x
+                    ./images/daniel2.jpg   2x
+                    "
+                  />
                     <div class="container-foto">
                    <h3 class="neme">Daniel Wilson</h3>
                     <p class="workplace">UI Designer</p>
@@ -462,9 +459,10 @@
                             srcset="./images/plan/planscreen-min.jpg  1x,
                                     ./images/plan/planscreen2x-min.jpg 2x"
                                     media="(min-width: 768px)"
-                            /><source
-                            srcset=". /images/mob/mobscreen-min.jpg  1x,
-                                    ./images/mob/mobscreen2x-min.jpg2x"
+                            />
+                            <source
+                            srcset="./images/mob/mobscreen-min.jpg  1x,
+                                    ./images/mob/mobscreen2x-min.jpg 2x"
                                     media="(max-width: 767px)"
                             />
                             <img src="./images/mob/planscreen-min.jpg" alt="Banking App">
